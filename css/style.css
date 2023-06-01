@@ -13,7 +13,7 @@ html{
     --navbar-height: 59px;
 }
 
-/* Navigation Bar */
+/* ------------------------Navigation Bar--------------------- */
 #navbar{
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@ html{
 }
 
 
-/* Navigation Bar: List Styling */
+/* -------------Navigation Bar: List Styling-------------- */
 
 #navbar ul{
     display: flex;
@@ -70,7 +70,7 @@ html{
     background-color: white;
 }
 
-/* Home Section */
+/* -----------------------Home Section----------------------- */
 #home{
     display: flex;
     flex-direction: column;
@@ -130,7 +130,7 @@ html{
 
 } 
 
-/* Clients Section */
+/* ---------------------Clients Section----------------------- */
 #client-section{ 
     position: relative;
 }
@@ -160,13 +160,13 @@ html{
 }
 
 
-/* Contact Section */
+/* -----------------------Contact Section--------------------- */
 #contact{
     position: relative;
     /* text-align: center; */
 
 }
-.contact::before{
+#contact::before{
     content: "";
     position: absolute;
     height: 500px;
@@ -181,9 +181,9 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 34px;
+    padding-bottom: 6px;
 }
-#contact-box input, 
+/* #contact-box input,  */
 .contact-box textarea{
     width: 100%;
     padding: 0.5rem;
@@ -208,7 +208,7 @@ footer{
     padding: 9px 20px;
 }
 
-/* Utility Classes */
+/* -------------------Utility Classes-------------------- */
 .h-primary{
     font-family: 'Bree Serif', serif;
     font-size: 3.8rem;
@@ -221,7 +221,7 @@ footer{
     padding: 12px;
 }
 
-.btn{
+.btn, .but {
     padding: 6px 20px;
     border: 2px solid white;
     background-color: brown;
@@ -231,7 +231,6 @@ footer{
     border-radius: 10px;
     cursor:pointer;
 }
-
 .center{
     text-align: center;
 }
